@@ -351,6 +351,8 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
+	/*display: block;
+	max-width: 90%;*/
 	margin: 15px 0;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
@@ -376,9 +378,10 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 33% 0 0 0;
+	/*padding: 33% 0 0 0;*/
 	height: 100%;
 	width: 100%;
+	padding: 0 0 33% 0;
 	opacity: 0;
 	transition: all 0.5s;
 }
@@ -506,6 +509,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 }
 .section-title p {
 	font-size: 16px;
+	color: white;
 }
 #contact i.fa {
 	color: #121d1f;
