@@ -419,61 +419,6 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Achivements Section */
-#achievements {
-	padding: 100px 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100 */
-	background: rgb(107,77,168); /* Old browsers */
-	background: -moz-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right, rgba(107,77,168,1) 0%, rgba(73,119,194,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', endColorstr='#4977c2', GradientType=1 ); /* IE6-9 */
-}
-#achievements h2 {
-	color: #fff;
-}
-#achievements hr {
-	background: rgba(255,255,255,0.3);
-}
-.achievement-box h4 {
-	color: #fff;
-	font-size: 16px;
-	font-weight: 400;
-	margin-left: 5px;
-	text-transform: uppercase;
-}
-.achievement-box span.count {
-	font-size: 52px;
-	font-weight: 600;
-	display: block;
-	color: rgba(255,255,255,0.8);
-	padding: 0;
-	margin: 0;
-}
-/* Testimonials Section */
-#testimonials {
-	padding: 100px 0;
-	background: #F6F6F6;
-}
-#testimonials blockquote {
-	position: relative;
-	margin-top: 20px;
-	border: 0;
-	text-align: center;
-	background: #fff;
-	padding: 30px 20px;
-}
-#testimonials i {
-	font-size: 24px;
-	color: #eee;
-	margin-bottom: 14px;
-}
-#testimonials .clients-name {
-	display: inline-block;
-	border-top: 1px solid #eee;
-	padding-top: 20px;
-	margin-top: 10px;
-}
 /* Contact Section */
 #contact {
 	color: #fff;
@@ -504,9 +449,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d96b4da8', e
 	font-weight: 400;
 	color: #fff;
 }
-#contact form {
-	padding: 30px 0;
-}
 .section-title p {
 	font-size: 16px;
 	color: white;
@@ -524,42 +466,6 @@ label {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	float: left;
-}
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	margin: 10px 0;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #222;
-	background-color: rgba(255,255,255,0.6);
-	background-image: none;
-	border: 0;
-	border-radius: 2px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: inherit;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
-.form-control::-webkit-input-placeholder {
-color: #2c3e50;
-}
-.form-control:-moz-placeholder {
-color: #2c3e50;
-}
-.form-control::-moz-placeholder {
-color: #2c3e50;
-}
-.form-control:-ms-input-placeholder {
-color: #2c3e50;
 }
 #contact .btn {
 	margin-top: 20px;
@@ -579,21 +485,6 @@ color: #2c3e50;
 }
 #contact .social i.fa:hover {
 	color: #121d1f;
-}
-/* Footer Section*/
-#footer {
-	background: #222;
-	color: #777;
-	padding: 30px 0 25px 0;
-}
-#footer p {
-	font-size: 13px;
-}
-#footer a {
-	color: #aaa;
-}
-#footer a:hover {
-	color: #526cbb;
 }
 
 /* Media Queries */
